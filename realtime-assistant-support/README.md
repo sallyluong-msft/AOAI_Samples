@@ -58,19 +58,32 @@ Once you have updated the .env file, please save the changes and you are ready t
 
 ### Option 1: Run the application locally
 
-1. Install dependencies: 
-Open the terminal and navigate to the src folder of the repository. Then run the following command to install the necesairly Python packages:
+1. Navigate to the project directory and create a virtual environment:
+   ```python
+    python -m venv venv
+    ```
+2. Activate the virtual environment
+   on Windows:
+   ```venv
+    venv\Scripts\activate
+    ```
+   On macOS and Linux:
+   ```venv
+    source venv/bin/activate
+    ```
+5. Install dependencies: 
+Open the terminal and navigate to the src folder of the repository. Then run the following command to install the necessary Python packages:
 
     ```pip
     pip install -r requirements.txt
     ```
 
-2. Run the application: Run the following command to start the application:
+6. Run the application: Run the following command to start the application:
 
     ```chainlit
      chainlit run app.py -w
     ```
-3. Test the application: Open a new terminal and run the following command to test the application:
+7. Test the application: Open a new terminal and run the following command to test the application:
 
     ```chainlit
      http://localhost:8000/
