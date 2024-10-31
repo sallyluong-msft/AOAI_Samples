@@ -22,7 +22,7 @@ The following files are also included in the repository:
 - Dockerfile: Used to build a Docker image for the application.
 - .env: Contains the environment variables.
 - build-docker-image.sh: A script to build the Docker image.
-- run-docker-image.sh: A script to run the Docker image locally.
+- run-docker-container.sh: A script to run the Docker image locally.
 - push-docker-image.sh: A script to push the Docker image to an Azure Container Registry
 - variables.sh: contains the variables for the Azure Container Registry, and the Docker image.
 
