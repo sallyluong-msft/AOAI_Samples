@@ -14,7 +14,7 @@ Gone are the days when building a voice bot required stitching together multiple
 - **Tool calling**: Ask the assistant to perform tasks and see their output in the UI
 - **Visual Presence**: Visual cues indicating if the assistant is listening or speaking
 
-Plead read my Blog for more details https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/from-zero-to-hero-building-your-first-voice-bot-with-gpt-4o-real/ba-p/4269038
+Read this blog for more details https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/from-zero-to-hero-building-your-first-voice-bot-with-gpt-4o-real/ba-p/4269038
 
 
 The following files are also included in the repository:
@@ -33,8 +33,7 @@ The following files are also included in the repository:
 - [VS Code](https://code.visualstudio.com/) as a code editor.
 - [Docker](https://www.docker.com/) installed on your local machine.
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) installed on your local machine.
-- [Azure OpenAI account](https://azure.microsoft.com/en-us/services/cognitive-services/openai/). You will need to create a resource and obtain your OpenAI Endpoint, API Key, deploy text-embedding-ada-002 and gpt-35-turbo-16k model.
-- Python 3.11 or higher installed on your local machine.
+- [Azure OpenAI account](https://azure.microsoft.com/en-us/services/cognitive-services/openai/). You will need to create a resource and obtain your OpenAI Endpoint, API Key, and deploy gpt-4o-realtime-preview.
 - (Optional) [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/) to store the Docker image. This step is optional, if you want to deploy the application to Azure Container Apps for example.
 
 ### Setup the environment variables
@@ -90,8 +89,8 @@ Open the terminal and navigate to the src folder of the repository. Then run the
     ```
 4. Run the following command to run the Docker image:
 
-    ```run-docker-image
-     ./run-docker-image.sh
+    ```run-docker-container
+     ./run-docker-container.sh
     ```
 5. Test the application: Open a new terminal and run the following command to test the application:
 
